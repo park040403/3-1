@@ -1,0 +1,36 @@
+.login {
+    width: 400px;
+    background: rgb(0, 125, 195);
+    border-radius: 5%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p {
+    color: white;
+    text-align: center;
+}
+body {
+    background-image: url('./img/login_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+.login_button {
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 217px;
+    margin-top: 10px;
+}
+.register_button {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 217px;
+    margin-top: 10px;
+}
